@@ -2,7 +2,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 80px 80px 80px 80px 80px;
-    grid-template-rows: 60px 80px 80px 80px 80px;
+    grid-template-rows: 60px 80px 80px 80px 80px 80px 80px;
     grid-template-areas: 
         "header header header header header" 
         "main main main main main" 
@@ -21,6 +21,17 @@
     color: LightSlateGray;
     font-size: 28px;
     padding-right: 10px;
+    padding-top: 60px;
+}
+.mode {
+    grid-area: header;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: right;
+    color: LightSlateGray;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 40px;
 }
 .item-footer {
     grid-area: footer;
@@ -33,7 +44,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 20px;
     margin: 4px 2px;
     border-radius: 50%;
 }
