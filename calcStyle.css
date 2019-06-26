@@ -1,7 +1,17 @@
+@font-face {
+    font-family: "myFont";
+    src: url("Pixellari.ttf");
+    }
+
 .container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 80px 80px 80px 80px 80px;
+    width: 450px;
+    height: 600px;
+    background-color: rgb(10, 59, 46);
+    overflow: hidden;
+    border-radius: 20px;
+    /* display: grid;
+    justify-content: center; */
+    /* grid-template-columns: 80px 80px 80px 80px 80px;
     grid-template-rows: 60px 80px 80px 80px 80px 80px 80px;
     grid-template-areas: 
         "header header header header header" 
@@ -11,52 +21,80 @@
         "main main main main main"
         "main main main main main"
         "main main main main main"
-        "footer footer footer footer footer";
+        "footer footer footer footer footer"; */
+    /* width: 450px;
+    height: 600px;
+    background-color: rgb(10, 59, 46);
+    border-radius: 20px; */
+    /* top: 40px; */
 }
-.item-header {
-    grid-area: header;
-    grid-row-start: 1;
-    grid-row-end: 1;
+.display {
+    position: relative;
+    width: 400px;
+    height: 90px;
+    margin: auto;
+    margin-top: 6%;
+    background-color: rgb(8, 97, 73);
+    border-radius: 10px;
     text-align: right;
-    color: LightSlateGray;
-    font-size: 28px;
-    padding-right: 10px;
-    padding-top: 60px;
+    color: white;
+    font-family: myFont;
+    font-size: 40px;
+    /* grid-area: header;
+    grid-row-start: 1;
+    grid-row-end: 1; */
+    /* width: 400px;
+    height: 75px;
+    text-align: right;
+    background-color: rgb(8, 97, 73);
+    color: black;
+    font-size: 28px; */
+    /* position: relative; */
+    /* margin: auto;
+    margin-top: 5%;
+    padding-top: 20px; */
 }
 .mode {
-    grid-area: header;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    padding-top: 10px;
+    color: white;
     text-align: right;
+    padding-right: 6%;
+    font-size: 20px;
+    font-family: myFont;
+    /* grid-area: header;
+    grid-row-start: 1;
+    grid-row-end: 1; */
+    /* text-align: right;
     color: LightSlateGray;
     font-size: 14px;
     padding-right: 10px;
-    padding-top: 40px;
+    padding-top: 40px; */
 }
 .item-footer {
-    grid-area: footer;
+    /* grid-area: footer; */
 }
 .btn {
-    background-color: LightSlateGray;
+    font-family: myFont;
+    /* background-color: LightSlateGray;
     border: none;
-    color: white;
-    padding: 20px;
+    color: white; */
+    /* padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 .enter {
-    background-color: LightSlateGray;
+    /* background-color: LightSlateGray;
     border: none;
-    color: white;
-    padding: 20px;
+    color: white; */
+    /* padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
     margin: 4px 2px;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
